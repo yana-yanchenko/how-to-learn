@@ -173,16 +173,8 @@
   padding: 0;
 }
 
-.table__cell-point:first-child {
-  margin-top: 0;
-}
-
-.table__cell-point {
-  margin-top: 20px;
-}
-
 .table__heading {
-  margin: 0;
+  margin: 0 0 20px 0;
   padding: 0;
   line-height: 1.15;
   font-size: 24px;
@@ -190,7 +182,7 @@
 }
 
 .table__text {
-  margin: 0;
+  margin: 20px 0 0 0;
   padding: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -202,7 +194,7 @@
   background-color: #f2f2f2;
   position: relative;
   width: 100%;
-  height: 790px;
+  min-height: 790px;
   margin: 0;
   padding: 100px 0 0 0;
   flex-direction: column;
@@ -247,6 +239,7 @@
   z-index: 6;
   width: 867px;
   height: 637px;
+  background-image: url(../images/feynman.png);
 }
 
 .kaufman {
@@ -301,16 +294,12 @@
 }
 
 .table__heading_theme_dark {
-  margin: 0;
-  padding: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
 .table__text_theme_dark {
-  margin: 0;
-  padding: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -349,7 +338,7 @@
   margin: 0;
 }
 
-.footer-column_content-copyright {
+.footer-column_content_copyright {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -359,12 +348,12 @@
   padding: 0;
 }
 
-.footer-column_content-info {
+.footer-column_content_info {
   margin: 0;
   padding: 0;
 }
 
-.footer-column_content-social {
+.footer-column_content_social {
   margin: 0;
   padding: 0;
 }
@@ -388,13 +377,13 @@
   font-weight: bold;
   line-height: 30px;
 }
+.footer__column-menu {}
 
-.footer__column-text {
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 30px;
+.footer__column-list {
+  list-style: none;
   margin: 0;
   padding: 0;
+  margin: 0 0 16px 0;
 }
 
 .footer__column-links {}
@@ -403,14 +392,15 @@
   display: flex;
   text-decoration: none;
   color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__column-link:hover {
   opacity: 0.2;
-}
-
-.footer__column-links:last-child {
-  margin-bottom: 16px;
 }
 
 .footer__social-icon {
@@ -418,16 +408,4 @@
   margin: 0 10px 0 0;
   width: 16px;
   height: 16px;
-}
-
-.footer-social-icon_background-facebook {
-  background-image: url(../images/facebook_color_white.svg);
-}
-
-.footer-social-icon_background-vk {
-  background-image: url(../images/vk_color_white.svg);
-}
-
-.footer-social-icon_background-instagram {
-  background-image: url(../images/instagram_color_white.svg);
 }
