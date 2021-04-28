@@ -338,7 +338,7 @@
   margin: 0;
 }
 
-.footer-column_content_copyright {
+.footer__column_content_copyright {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -348,12 +348,12 @@
   padding: 0;
 }
 
-.footer-column_content_info {
+.footer__column_content_info {
   margin: 0;
   padding: 0;
 }
 
-.footer-column_content_social {
+.footer__column_content_social {
   margin: 0;
   padding: 0;
 }
