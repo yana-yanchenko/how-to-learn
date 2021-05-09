@@ -3,11 +3,11 @@
 @import url(../blocks/page/page.css);
 /*  */
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/__link/logo__link.css);
 @import url(../blocks/logo/_place_header/logo_place_header.css);
 @import url(../blocks/logo/_place_footer/logo_place_footer.css);
 /*  */
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo-link/header__logo-link.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
@@ -80,6 +80,7 @@
 @import url(../blocks/resources/__logo/resources__logo.css);
 /*  */
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__logo-link/footer__logo-link.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__column/_content_copyright/footer__column_content_copyright.css);
