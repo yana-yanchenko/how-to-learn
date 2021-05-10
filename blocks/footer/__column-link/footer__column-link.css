@@ -1,15 +1,15 @@
 .footer__column-link {
-    display: flex;
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 30px;
-    margin: 0;
-    padding: 0;
-    transition: opacity 0.4s linear;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  transition: opacity 0.4s linear;
 }
  
 .footer__column-link:hover {
-    opacity: 0.2;
+  opacity: 0.3;
 }

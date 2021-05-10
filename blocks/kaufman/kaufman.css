@@ -1,13 +1,13 @@
 .kaufman {
-    background-color: #1f1f1f;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 90px 0 90px 0;
-    position: relative;
-    z-index: 7;
-    overflow: hidden;
-  }
+  background-color: #1f1f1f;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0 90px 0;
+  position: relative;
+  z-index: 7;
+  overflow: hidden;
+}
   
